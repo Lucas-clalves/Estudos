@@ -19,6 +19,4 @@ public class User {
             return profile;
         }
 
-        
-
 }

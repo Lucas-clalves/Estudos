@@ -11,9 +11,9 @@ public class Check {
         return false;
     }
 
-    public boolean isSuport(Profile profile) {
+    public boolean isSupport(Profile profile) {
         if (profile == Profile.SUPORT) {
-            System.out.println("Acesso Liberado: Área do Suport.");
+            System.out.println("Acesso Liberado: Área do Support.");
             return true;
         }
         return false;
