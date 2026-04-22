@@ -1,3 +1,5 @@
+package Padaria;
+
 public class Manteiga extends PaoDecorator{
 
     public Manteiga(Pao pao) {

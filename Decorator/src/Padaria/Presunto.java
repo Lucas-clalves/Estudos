@@ -1,3 +1,5 @@
+package Padaria;
+
 public class Presunto extends PaoDecorator {
 
     public Presunto(Pao pao) {

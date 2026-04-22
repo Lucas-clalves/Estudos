@@ -1,3 +1,5 @@
+package Padaria;
+
 public class Queijo extends PaoDecorator{
 
     public Queijo(Pao pao) {
