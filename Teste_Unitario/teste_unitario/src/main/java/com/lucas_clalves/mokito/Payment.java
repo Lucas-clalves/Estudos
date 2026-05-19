@@ -1,3 +1,5 @@
+package com.lucas_clalves.mokito;
+
 public class Payment {
 
     public void pay(){

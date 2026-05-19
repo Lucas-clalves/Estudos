@@ -1,12 +1,14 @@
-public class User {
+package com.lucas_clalves.mokito;
+
+public class Order{
     private int id;
     private String nome;
     private int idade;
 
-    public User(String nome, int idade){
+    public Order(String nome, int idade){
         setNome(nome);
         setIdade(idade);
-        setId(idade);
+        setId();
     }
 
     public int getId() {

@@ -1,3 +1,5 @@
+package com.lucas_clalves.mokito;
+
 public class UserService {
     private Order order;
 

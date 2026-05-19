@@ -1,8 +1,10 @@
-public class Order {
+package com.lucas_clalves.mokito;
+
+public class OrderService {
     private UserService userservice;
     private Payment payment;
     
-    public Order(UserService userservice, Payment payment) {
+    public OrderService(UserService userservice, Payment payment) {
         this.userservice = userservice;
         this.payment = payment;
     }

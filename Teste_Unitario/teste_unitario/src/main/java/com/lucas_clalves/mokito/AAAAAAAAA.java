@@ -1,3 +1,5 @@
+package com.lucas_clalves.mokito;
+
 public class AAAAAAAAA {
     public static void main(String[] args) {
         Payment payM = new Payment();
