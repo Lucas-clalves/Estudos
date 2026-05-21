@@ -10,12 +10,13 @@ public class OrderService {
     }
 
     public void create(Order order){
-        boolean isUserMinor = userservice.isUserMinor(order);
+        boolean isUserMinor = userservice.isUserMinor(order.getIdade());
         if (isUserMinor) {
             throw new IllegalStateException("Usuario não pode ser menor de idade");
         }
 
         payment.pay();
+        System.out.printf("Status: ok \nCreate order.");
 
     }
 
