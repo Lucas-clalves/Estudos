@@ -47,7 +47,7 @@ public class OrderServiceTest {
             orderService.create(order);
             
             verify(userService, times(1)).isUserMinor(argThat(age -> age > 17));
-            verify(payment, times(1));
+            verify(payment, times(1)).pay();;
         }
 
 }
